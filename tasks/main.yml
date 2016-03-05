@@ -1,0 +1,12 @@
+---
+- name: install epel-release
+  yum: name=epel-release state=latest
+  when: ansible_distribution == "CentOS"
+
+- name: install httpd-tools
+  yum: name=httpd-tools state=latest
+  when: ansible_distribution == "CentOS"
+
+- name: install apach2-utils
+  apt: name=apache2-utils state=latest
+  when: ansible_distribution == "Ubuntu"

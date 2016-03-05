@@ -1,0 +1,17 @@
+---
+galaxy_info:
+  author: ctrlaltreboot
+  description: Common packages for installation on a host
+  company:
+  license: GPLv2
+  min_ansible_version: 1.2
+  platforms:
+  - name: EL
+    versions:
+    - all
+  - name: Ubuntu
+    versions:
+    - all
+  categories:
+  - system
+dependencies: []

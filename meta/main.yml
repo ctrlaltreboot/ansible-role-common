@@ -1,17 +1,15 @@
 ---
 galaxy_info:
-  author: ctrlaltreboot
-  description: Common packages for installation on a host
+  author: xyZroboT
+  description: Common stuff for Fedora 24
   company:
   license: GPLv2
-  min_ansible_version: 1.2
+  min_ansible_version: 1.9
   platforms:
-  - name: EL
+  - name: Fedora
     versions:
-    - all
-  - name: Ubuntu
-    versions:
-    - all
+    - 24
   categories:
   - system
+  - fedora
 dependencies: []

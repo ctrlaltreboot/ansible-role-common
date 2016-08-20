@@ -1,25 +1,22 @@
-[![Build
-Status](https://travis-ci.org/ctrlaltreboot/ansible-role-common.svg?branch=master)](https://travis-ci.org/ctrlaltreboot/ansible-role-common)
-
-ctrlaltreboot.common
+xyzrbt.common
 =========
-Common packages and operations for a server.
+Common stuff
 
 
 Requirements
 ------------
 
-None at this time.
+Fedora 24
 
 Role Variables
 --------------
 
-None at this time.
+None.
 
 Dependencies
 ------------
 
-None at this time.
+None.
 
 Example Playbook
 ----------------
@@ -27,7 +24,7 @@ Example Playbook
 ```
     - hosts: servers
       roles:
-         - { role: ctrlaltreboot.common }
+         - { role: xyzrbt.common }
 ```
 
 License
@@ -38,4 +35,4 @@ GPLv2
 Author Information
 ------------------
 
-github.com/ctrlaltreboot
+Efaytee

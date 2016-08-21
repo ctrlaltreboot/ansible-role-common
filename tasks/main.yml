@@ -1,7 +1,4 @@
 ---
-- name: Install epel-release
-  package: name=epel-release state=latest
-
 - name: Install packages
   package: name={{ item }} state=latest
   with_items:
